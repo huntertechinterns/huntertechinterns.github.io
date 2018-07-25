@@ -249,13 +249,21 @@
       color: #fff;
       width: 50%; 
       text-align:center;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
     }
       #page.ttp .middle-section .class-container .class-title {
         font-size: 30px;
-        padding-top: 300px;
+       
         text-align:center;
         }
       #page.ttp .middle-section .class-container .class-text {
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
         font-family: "Source Sans Pro";
         font-size: 20px;
         padding-top: 25px; 
@@ -264,6 +272,10 @@
         line-height: 1.6;
         clear: both; }
       #page.ttp .middle-section .class-container .enroll-now {
+        display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
         font-family: "Oswald", sans-serif;
         background-color: #fff;
         color: #562282;
@@ -271,10 +283,11 @@
         width: 85%;
         border-radius: 0;
         font-size: 23px;
-        display: inline-block;
-        text-align: center;
-        position: relative;
-        left: 20%;
+        /*display: inline-block;
+        text-align: center;*/
+       /* position: relative;*/
+
+  /*      left: 20%;*/
         font-weight: 400;
         letter-spacing: 1px;
         cursor: pointer;
