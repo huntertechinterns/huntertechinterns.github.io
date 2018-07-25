@@ -185,7 +185,7 @@
       #page.ttp .middle-section .sponsor-container .first {
         width: 75px; }
     #page.ttp .middle-section .contest-container {
-      height: 650px;
+      height: 1250px;
       background-color: #EBEBEB;
       width: 50%; }
       #page.ttp .middle-section .contest-container .contest-body {
@@ -245,12 +245,15 @@
           padding-left: 10px; }
     #page.ttp .middle-section .class-container {
       background-color: #562282;
-      height: 650px;
+      height: 1250px;
       color: #fff;
-      width: 50%; }
+      width: 50%; 
+      text-align:center;
+    }
       #page.ttp .middle-section .class-container .class-title {
         font-size: 30px;
-        padding-top: 80px;
+        padding-top: 300px;
+        text-align:center;
         }
       #page.ttp .middle-section .class-container .class-text {
         font-family: "Source Sans Pro";
@@ -271,6 +274,7 @@
         display: inline-block;
         text-align: center;
         position: relative;
+        left: 20%;
         font-weight: 400;
         letter-spacing: 1px;
         cursor: pointer;
